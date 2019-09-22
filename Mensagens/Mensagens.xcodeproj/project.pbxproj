@@ -67,19 +67,43 @@
 			isa = PBXGroup;
 			children = (
 				A17132CD1F844BD600049020 /* AppDelegate.swift */,
-				A17132E51F844EB700049020 /* Message.swift */,
+				E2FF8F38233500DC00D9D174 /* Model */,
+				E2FF8F37233500D200D9D174 /* Controller */,
+				E2FF8F39233500E700D9D174 /* View */,
+				A17132D41F844BD600049020 /* Assets.xcassets */,
+				A17132D91F844BD600049020 /* Info.plist */,
+			);
+			path = Mensagens;
+			sourceTree = "<group>";
+		};
+		E2FF8F37233500D200D9D174 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				A17132CF1F844BD600049020 /* MessageViewController.swift */,
 				A17132DF1F844D7300049020 /* MessageColorViewController.swift */,
 				A17132E11F844D7F00049020 /* ScreenColorViewController.swift */,
 				A17132E31F844D8E00049020 /* ResultViewController.swift */,
-				A17132D11F844BD600049020 /* Main.storyboard */,
 				E20CA05822BB290B0053B496 /* ColorPickerViewController.swift */,
 				E20CA05622BB20470053B496 /* BaseViewController.swift */,
-				A17132D41F844BD600049020 /* Assets.xcassets */,
-				A17132D61F844BD600049020 /* LaunchScreen.storyboard */,
-				A17132D91F844BD600049020 /* Info.plist */,
 			);
-			path = Mensagens;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2FF8F38233500DC00D9D174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A17132E51F844EB700049020 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2FF8F39233500E700D9D174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A17132D11F844BD600049020 /* Main.storyboard */,
+				A17132D61F844BD600049020 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
